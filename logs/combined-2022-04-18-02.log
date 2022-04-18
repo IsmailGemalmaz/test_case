@@ -1,0 +1,27 @@
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:08:51.114Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:08:51.122Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:08:51.197Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:09:20.507Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:09:20.516Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:09:20.623Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:09:23.590Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:09:23.598Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:09:23.700Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:09:26.848Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:09:26.856Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:09:26.961Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:09:29.847Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:09:29.855Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:09:29.963Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:09:33.050Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:09:33.058Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:09:33.165Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:09:36.233Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:09:36.241Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:09:36.347Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:09:39.460Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:09:39.467Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:09:39.570Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T23:09:42.514Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T23:09:42.522Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T23:09:42.627Z"}

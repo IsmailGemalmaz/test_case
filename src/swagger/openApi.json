@@ -1,0 +1,830 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a sample article server.",
+        "version": "1.0.0",
+        "title": "TEST CASE",
+        "termsOfService": "",
+        "contact": {
+            "email": "test.test5734@gmail.com"
+        },
+        "license": {
+            "name": "İsmail Gemalmaz",
+            "url": ""
+        }
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1",
+    "schemes": [
+        "http"
+    ],
+    "tags": [
+        {
+            "name": "user",
+            "description": "All about user",
+            "externalDocs": {
+                "description": "",
+                "url": ""
+            }
+        }, 
+        {
+            "name": "article",
+            "description": "All about article",
+            "externalDocs": {
+                "description": "",
+                "url": ""
+            }
+        },
+        {
+            "name": "comment",
+            "description": "All about comment",
+            "externalDocs": {
+                "description": "",
+                "url": ""
+            }
+        },
+        {
+            "name": "SendEmail",
+            "description": "Sends articles by e-mail",
+            "externalDocs": {
+                "description": "",
+                "url": ""
+            }
+        }  
+    ],
+    "paths": {
+        "/user/register": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Adds a new user to the database",
+                "description": "Adds a new user to the database",
+                "operationId": "registerUser",
+                "consumes": [
+                    "application/json",
+                    "application/xml"
+                ],
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "comment object that needs to be added to the database",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+        "/user/login": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Logs into the app",
+                "description": "Gives one day valid token",
+                "operationId": "loginUser",
+                "consumes": [
+                    "application/json",
+                    "application/xml"
+                ],
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "login user information",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/UserLogin"
+                        }
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+        "/user/refreshToken": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "jwt token updates",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "refreshTokenUser",
+                "consumes": [
+                    "application/json",
+                    "application/xml"
+                ],
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }, 
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/user/changePassword": {
+            "put": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Updated password",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "changePasswordUser",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "Updated password object",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/ChangePassword"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/user/resetPassword": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "password reset",
+                "description": "password resets send new password mail.",
+                "operationId": "resetPassword",
+                "consumes": [
+                    "application/json",
+                    "application/xml"
+                ],
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description":"enter email",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/ResetPassword"
+                        }
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/comment/add": {
+            "post": {
+                "tags": [
+                    "comment"
+                ],
+                "summary": "Adds a new comment to the database",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "addComment",
+                "consumes": [
+                    "application/json",
+                    "application/xml"
+                ],
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "comment object that needs to be added to the database",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/CommentAdd"
+                        }
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/comment/getAll": {
+            "get": {
+                "tags": [
+                    "comment"
+                ],
+                "summary": "finds all comments",
+                "description": "finds all comments",
+                "operationId": "getAllComment",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/comment/get": {
+            "get": {
+                "tags": [
+                    "comment"
+                ],
+                "summary": "ID Finds comments for the given article.",
+                "description": "ID Finds comments for the given article.",
+                "operationId": "getComment",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "articleId",
+                        "in": "query",
+                        "description": "ID of the article of the comment to return",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64",
+                        "collectionFormat": "multi"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                }
+            }
+        },
+        "/comment/getId": {
+            "get": {
+                "tags": [
+                    "comment"
+                ],
+                "summary": "finds comments given id",
+                "description": "finds comments given id",
+                "operationId": "getIdComment",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "Enter the ID of the comment to return",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64",
+                        "collectionFormat": "multi"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                }
+            }
+        },
+        "/comment/update": {
+            "put": {
+                "tags": [
+                    "comment"
+                ],
+                "summary": "Updated comment",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "updateComment",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "Updated comment object",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/CommentUpdate"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/comment/delete": {
+            "delete": {
+                "tags": [
+                    "comment"
+                ],
+                "summary": "delete comment",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "deleteComment",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "commentId",
+                        "in": "query",
+                        "description": "object that need to be delete",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/article/add": {
+            "post": {
+                "tags": [
+                    "article"
+                ],
+                "summary": "Adds a new article to the database",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "addArticle",
+                "consumes": [
+                    "application/json",
+                    "application/xml"
+                ],
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "article object that needs to be added to the database",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/ArticleAdd"
+                        }
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/article/getAll": {
+            "get": {
+                "tags": [
+                    "article"
+                ],
+                "summary": "finds all article",
+                "description": "finds all article",
+                "operationId": "getAllArticle",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                }
+            }
+        },
+        "/article/getId": {
+            "get": {
+                "tags": [
+                    "article"
+                ],
+                "summary": "finds article given id",
+                "description": "finds article given id",
+                "operationId": "getIdArticle",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "Enter the ID of the article to return",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64",
+                        "collectionFormat": "multi"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                }
+            }
+        },
+        "/article/update": {
+            "put": {
+                "tags": [
+                    "article"
+                ],
+                "summary": "Updated article",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "updateArticle",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "Updated article object",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/ArticleUpdate"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/article/delete": {
+            "delete": {
+                "tags": [
+                    "article"
+                ],
+                "summary": "delete article",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "deleteArticle",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "articleId",
+                        "in": "query",
+                        "description": "object that need to be delete",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": ""
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid status value"
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/article/sendMail": {
+            "post": {
+                "tags": [
+                    "SendEmail"
+                ],
+                "summary": "Sends articlies by e-mail --> cron job manual trigger",
+                "description": "Sends articlies by e-mail --> cron job manual trigger",
+                "operationId": "sendMail",
+                "consumes": [
+                    "application/json",
+                    "application/xml"
+                ],
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }              
+            }
+        }
+    }, 
+    "securityDefinitions": {
+        "Bearer": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "description":"sadece token giriniz ",
+          "in": "header"
+        }
+      },
+    "definitions": {
+        "CommentAdd": {
+            "type": "object",
+            "properties": {
+
+                "articleId": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "comment": {
+                    "type": "string",
+                    "format": "text"
+                }
+            },
+            "xml": {
+                "name": "comment"
+            }
+        },
+        "ArticleAdd": {
+            "type": "object",
+            "properties": {
+                "articleName": {
+                    "type": "string",
+                    "format": "varchar"
+                },
+                "articleText": {
+                    "type": "string",
+                    "format": "text"
+                }
+            },
+            "xml": {
+                "name": "article"
+            }
+        },
+        "CommentUpdate": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "comment": {
+                    "type": "string",
+                    "format": "text"
+                }
+            },
+            "xml": {
+                "name": "comment"
+            }
+        },
+        "ArticleUpdate": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "articleName": {
+                    "type": "string",
+                    "format": "varchar"
+                },
+                "articleText": {
+                    "type": "string",
+                    "format": "text"
+                }
+            },
+            "xml": {
+                "name": "article"
+            }
+        },
+        "User": {
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string",
+                    "format": "varchar"
+                },
+                "lastName": {
+                    "type": "string",
+                    "format": "varchar"
+                },
+                "email": {
+                    "type": "string",
+                    "format": "varchar"
+                },
+                "password": {
+                    "type": "string",
+                    "format": "varchar"
+                }
+            },
+            "xml": {
+                "name": "article"
+            }
+        },
+        "UserLogin": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "format": "varchar"
+                },
+                "password": {
+                    "type": "string",
+                    "format": "varchar"
+                }
+            },
+            "xml": {
+                "name": "article"
+            }
+        },
+        "ChangePassword": {
+            "type": "object",
+            "properties": {
+                "password": {
+                    "type": "string",
+                    "format": "varchar"
+                }
+            },
+            "xml": {
+                "name": "article"
+            }
+        },
+        "ResetPassword": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "format": "varchar"
+                }
+            },
+            "xml": {
+                "name": "article"
+            }
+        }
+    }
+}

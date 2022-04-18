@@ -1,0 +1,14 @@
+{
+    "apps": [
+      {
+        "name": "test_case",
+        "script": "./build/App.js",
+        "instances": 1,
+        "exec_mode": "fork",
+        "env":{
+          "PORT": 3000,
+          "INSTANCE_INDEX": 0
+        }
+      }
+    ]
+}

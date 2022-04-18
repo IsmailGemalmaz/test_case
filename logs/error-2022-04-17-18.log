@@ -1,0 +1,2 @@
+{"level":"error","message":"RequestID: (95dfb780-be5f-11ec-88b5-75bbd5c287c4) | Cannot read properties of undefined (reading 'id')","timestamp":"2022-04-17T15:03:48.761Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T15:52:26.001Z"}

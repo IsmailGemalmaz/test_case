@@ -1,0 +1,46 @@
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:02:50.830Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T15:02:50.836Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T15:02:50.976Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T15:02:50.977Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T15:02:51.002Z"}
+{"level":"error","message":"RequestID: (95dfb780-be5f-11ec-88b5-75bbd5c287c4) | Cannot read properties of undefined (reading 'id')","timestamp":"2022-04-17T15:03:48.762Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:05:35.870Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T15:05:35.876Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T15:05:36.133Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T15:05:36.134Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T15:05:36.159Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:06:36.340Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T15:06:36.345Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T15:06:36.492Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T15:06:36.495Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T15:06:36.523Z"}
+{"level":"warn","message":"RequestID: (0d243fa0-be60-11ec-9618-f13f6f68e3de) | BadRequestError: Makale bulunamadı! veya makale size ait değil!","timestamp":"2022-04-17T15:07:08.854Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:16:58.861Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T15:16:58.866Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T15:16:59.000Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T15:16:59.000Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T15:16:59.024Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:17:27.099Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T15:17:27.106Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T15:17:27.246Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T15:17:27.247Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T15:17:27.265Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:20:11.236Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T15:20:11.242Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T15:20:11.404Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T15:20:11.405Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T15:20:11.429Z"}
+{"level":"warn","message":"RequestID: (65f63730-be62-11ec-b4e4-639e5b28a80e) | BadRequestError: AuthServiceLoginWrongPasswordError","timestamp":"2022-04-17T15:23:57.034Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:32:01.006Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T15:32:01.011Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T15:32:01.153Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T15:32:01.155Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T15:32:01.176Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:52:25.945Z"}
+{"level":"info","message":"Connecting to database: 192.168.0.107:3306","timestamp":"2022-04-17T15:52:25.950Z"}
+{"level":"error","message":"Could not connect to the database, reason:Error: connect ECONNREFUSED 192.168.0.107:3306","timestamp":"2022-04-17T15:52:26.002Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T15:52:48.157Z"}
+{"level":"info","message":"Connecting to database: 127.0.0.1:3306","timestamp":"2022-04-17T15:52:48.162Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T15:52:48.297Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T15:52:48.298Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T15:52:48.317Z"}

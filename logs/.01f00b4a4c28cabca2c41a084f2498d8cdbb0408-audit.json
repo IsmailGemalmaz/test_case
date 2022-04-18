@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 31
+    },
+    "auditLog": "/home/ismail/Masaüstü/test_case/logs/.01f00b4a4c28cabca2c41a084f2498d8cdbb0408-audit.json",
+    "files": [
+        {
+            "date": 1650196838090,
+            "name": "/home/ismail/Masaüstü/test_case/logs/error-2022-04-17-15.log",
+            "hash": "172d897a69426e6765d152dc33e9c4bd"
+        },
+        {
+            "date": 1650200619856,
+            "name": "/home/ismail/Masaüstü/test_case/logs/error-2022-04-17-16.log",
+            "hash": "fcbc71be1b0a25e38de0e626a55fd999"
+        },
+        {
+            "date": 1650204997326,
+            "name": "/home/ismail/Masaüstü/test_case/logs/error-2022-04-17-17.log",
+            "hash": "fde1a89511ba277db6681d3534ace7f7"
+        },
+        {
+            "date": 1650207770821,
+            "name": "/home/ismail/Masaüstü/test_case/logs/error-2022-04-17-18.log",
+            "hash": "0e263c608b370ce19459a2e437c0a4d5"
+        },
+        {
+            "date": 1650211741837,
+            "name": "/home/ismail/Masaüstü/test_case/logs/error-2022-04-17-19.log",
+            "hash": "52c7f1c086adb25044a9eae66bb7a532"
+        },
+        {
+            "date": 1650219738220,
+            "name": "/home/ismail/Masaüstü/test_case/logs/error-2022-04-17-21.log",
+            "hash": "b1a408867d663f586465d89871f22b4f"
+        },
+        {
+            "date": 1650236314527,
+            "name": "/home/ismail/Masaüstü/test_case/logs/error-2022-04-18-01.log",
+            "hash": "110723db62b918e81cf45bf4e6533b74"
+        },
+        {
+            "date": 1650236931101,
+            "name": "/home/ismail/Masaüstü/test_case/logs/error-2022-04-18-02.log",
+            "hash": "cf67689b6f120430d4fc7d201770bc02"
+        }
+    ],
+    "hashType": "md5"
+}

@@ -1,0 +1,27 @@
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T18:22:18.228Z"}
+{"level":"info","message":"Connecting to database: localHost:3306","timestamp":"2022-04-17T18:22:18.232Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T18:22:18.372Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T18:22:18.373Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T18:22:18.394Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T18:25:58.244Z"}
+{"level":"info","message":"Connecting to database: localHost:3306","timestamp":"2022-04-17T18:25:58.249Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T18:25:58.387Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T18:25:58.388Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T18:25:58.408Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T18:26:32.249Z"}
+{"level":"info","message":"Connecting to database: localHost:3306","timestamp":"2022-04-17T18:26:32.254Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T18:26:32.388Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T18:26:32.389Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T18:26:32.409Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T18:27:44.715Z"}
+{"level":"info","message":"Connecting to database: localHost:3306","timestamp":"2022-04-17T18:27:44.720Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T18:27:44.869Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T18:27:44.870Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T18:27:44.890Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T18:36:04.842Z"}
+{"level":"info","message":"Connecting to database: localHost:3306","timestamp":"2022-04-17T18:36:04.848Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T18:36:04.990Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T18:36:04.991Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T18:36:05.009Z"}
+{"level":"warn","message":"RequestID: (655c25d0-be7d-11ec-96a1-81a262bf5385) | BadRequestError: Yorum bulunamadı! veya yorum size ait değil!","timestamp":"2022-04-17T18:37:12.264Z"}
+{"level":"warn","message":"RequestID: (c578cae0-be7d-11ec-96a1-81a262bf5385) | BadRequestError: Yorum bulunamadı! veya yorum size ait değil!","timestamp":"2022-04-17T18:39:53.501Z"}

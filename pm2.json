@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "test_case",
+      "script": "./src/App.ts",
+      "instances": 1,
+      "exec_mode": "fork",
+      "env": {
+        "NODE_ENV": "DEV"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:03:39.866Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:03:39.870Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:03:40.012Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:03:40.012Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:03:40.031Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:06:00.465Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:06:00.471Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:06:00.612Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:06:00.613Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:06:00.632Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:06:48.786Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:06:48.791Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:06:48.922Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:06:48.923Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:06:48.942Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:11:32.005Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:11:32.011Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:11:32.172Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:11:32.173Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:11:32.196Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:13:38.532Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:13:38.537Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:13:38.684Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:13:38.685Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:13:38.705Z"}
+{"level":"warn","message":"RequestID: (4527f370-be50-11ec-a624-5d7533f5cb65) | UnauthorizedError: AuthCheckerServiceAuthRequiredError","timestamp":"2022-04-17T13:14:10.858Z"}
+{"level":"warn","message":"RequestID: (54d3cab0-be50-11ec-a624-5d7533f5cb65) | BadRequestError: AuthServiceLoginUserNotFoundError","timestamp":"2022-04-17T13:14:37.158Z"}
+{"level":"warn","message":"RequestID: (5988a030-be50-11ec-a624-5d7533f5cb65) | BadRequestError: AuthServiceLoginUserNotFoundError","timestamp":"2022-04-17T13:14:45.048Z"}
+{"level":"warn","message":"RequestID: (61b425e0-be50-11ec-a624-5d7533f5cb65) | BadRequestError: AuthServiceLoginWrongPasswordError","timestamp":"2022-04-17T13:14:59.142Z"}
+{"level":"warn","message":"RequestID: (654562f0-be50-11ec-a624-5d7533f5cb65) | BadRequestError: AuthServiceLoginWrongPasswordError","timestamp":"2022-04-17T13:15:05.127Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:16:56.880Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:16:56.885Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:16:57.041Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:16:57.042Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:16:57.064Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:24:46.532Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:24:46.537Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:24:46.683Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:24:46.684Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:24:46.704Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:29:31.373Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:29:31.378Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:29:31.516Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:29:31.518Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:29:31.539Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:31:10.084Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:31:10.090Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:31:10.243Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:31:10.244Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:31:10.264Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T13:32:08.739Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T13:32:08.745Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T13:32:08.886Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T13:32:08.887Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T13:32:08.908Z"}
+{"level":"warn","message":"RequestID: (dc63b380-be52-11ec-be42-2b6752918dbd) | UnauthorizedError: AuthCheckerServiceAuthRequiredError","timestamp":"2022-04-17T13:32:43.578Z"}

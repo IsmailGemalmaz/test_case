@@ -1,0 +1,5 @@
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T22:58:34.539Z"}
+{"level":"info","message":"Connecting to database: localHost:3306","timestamp":"2022-04-17T22:58:34.545Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T22:58:34.722Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T22:58:34.723Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T22:58:34.747Z"}

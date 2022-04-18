@@ -1,0 +1,69 @@
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:16:37.335Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:16:37.341Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:16:37.493Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:16:37.494Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:16:37.519Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:19:14.558Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:19:14.563Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:19:14.720Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:19:14.721Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:19:14.746Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:20:21.945Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:20:21.950Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:20:22.125Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:20:22.126Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:20:22.151Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:22:34.360Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:22:34.365Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:22:34.512Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:22:34.512Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:22:34.536Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:31:11.740Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:31:11.745Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:31:11.898Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:31:11.900Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:31:11.920Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:33:11.385Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:33:11.391Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:33:11.555Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:33:11.556Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:33:11.578Z"}
+{"level":"error","message":"RequestID: (726e10c0-be5b-11ec-9f9d-bd058bf732e3) | Cannot read properties of undefined (reading 'id')","timestamp":"2022-04-17T14:34:11.304Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:35:23.595Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:35:23.600Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:35:23.744Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:35:23.746Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:35:23.767Z"}
+{"level":"error","message":"RequestID: (a8642700-be5b-11ec-8303-3d4c6d3e72b2) | Cannot read properties of undefined (reading 'id')","timestamp":"2022-04-17T14:35:41.837Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:36:30.746Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:36:30.751Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:36:30.892Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:36:30.893Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:36:30.916Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:38:34.219Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:38:34.224Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:38:34.379Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:38:34.380Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:38:34.407Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:40:15.689Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:40:15.695Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:40:15.845Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:40:15.846Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:40:15.868Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:41:26.492Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:41:26.499Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:41:26.640Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:41:26.642Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:41:26.660Z"}
+{"level":"warn","message":"RequestID: (8572ba80-be5c-11ec-a9b8-c593168349a4) | BadRequestError: Yorum bulunamadı!","timestamp":"2022-04-17T14:41:52.707Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:53:33.352Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:53:33.357Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:53:33.515Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:53:33.516Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:53:33.537Z"}
+{"level":"info","message":"Server starting","timestamp":"2022-04-17T14:58:15.831Z"}
+{"level":"info","message":"Connecting to database: localhost:3306","timestamp":"2022-04-17T14:58:15.836Z"}
+{"level":"info","message":"Connected to database successfully","timestamp":"2022-04-17T14:58:15.986Z"}
+{"level":"info","message":"HttpServer.listen, port: 3000","timestamp":"2022-04-17T14:58:15.987Z"}
+{"level":"info","message":"Server started, port: 3000","timestamp":"2022-04-17T14:58:16.012Z"}
+{"level":"error","message":"RequestID: (dd85cee0-be5e-11ec-96f4-2704a4f309c6) | Cannot read properties of undefined (reading 'id')","timestamp":"2022-04-17T14:58:39.471Z"}

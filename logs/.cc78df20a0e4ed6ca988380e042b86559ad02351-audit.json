@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 31
+    },
+    "auditLog": "/home/ismail/Masaüstü/test_case/logs/.cc78df20a0e4ed6ca988380e042b86559ad02351-audit.json",
+    "files": [
+        {
+            "date": 1650196838105,
+            "name": "/home/ismail/Masaüstü/test_case/logs/http-2022-04-17-15.log",
+            "hash": "fcdbd44e98f32b75bd9f1fa329fe0570"
+        },
+        {
+            "date": 1650200619861,
+            "name": "/home/ismail/Masaüstü/test_case/logs/http-2022-04-17-16.log",
+            "hash": "916a147dd4b1a42d162cce5097c35e0f"
+        },
+        {
+            "date": 1650204997331,
+            "name": "/home/ismail/Masaüstü/test_case/logs/http-2022-04-17-17.log",
+            "hash": "dc602b02616ac794a4e5c1c6c9c602e6"
+        },
+        {
+            "date": 1650207770825,
+            "name": "/home/ismail/Masaüstü/test_case/logs/http-2022-04-17-18.log",
+            "hash": "3a8b78cb90b1af19d5fea452c891fb9b"
+        },
+        {
+            "date": 1650211741842,
+            "name": "/home/ismail/Masaüstü/test_case/logs/http-2022-04-17-19.log",
+            "hash": "4c1800a3a5fde722b1b113e38ad916c4"
+        },
+        {
+            "date": 1650219738224,
+            "name": "/home/ismail/Masaüstü/test_case/logs/http-2022-04-17-21.log",
+            "hash": "81cd0752131e961018da17f5faae4997"
+        },
+        {
+            "date": 1650236314533,
+            "name": "/home/ismail/Masaüstü/test_case/logs/http-2022-04-18-01.log",
+            "hash": "1dbeb7de4b9aa3dbe638bc1f1ea0ce3f"
+        },
+        {
+            "date": 1650236931107,
+            "name": "/home/ismail/Masaüstü/test_case/logs/http-2022-04-18-02.log",
+            "hash": "dafc07ef6d97c010bae644b93cadd32d"
+        }
+    ],
+    "hashType": "md5"
+}
